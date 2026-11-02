@@ -1,0 +1,10 @@
+{
+  "id": "cfpress-publisher",
+  "name": "CF Press Publisher",
+  "version": "1.3.0",
+  "minAppVersion": "1.0.0",
+  "description": "Publish the current note to a CF Press site. Markdown goes in as written, images are uploaded, and the post id is written back so the next publish updates instead of duplicating.",
+  "author": "CF Press",
+  "authorUrl": "https://cfpress.org",
+  "isDesktopOnly": false
+}

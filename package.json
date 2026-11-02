@@ -1,0 +1,16 @@
+{
+  "name": "cf-press-publisher",
+  "version": "1.3.0",
+  "description": "Publish Obsidian notes to a CF Press site.",
+  "main": "main.js",
+  "scripts": {
+    "build": "esbuild main.ts --bundle --external:obsidian --format=cjs --target=es2018 --outfile=main.js",
+    "dev": "npm run build -- --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.0",
+    "obsidian": "^1.4.0",
+    "typescript": "^5.4.0"
+  },
+  "license": "MIT"
+}
